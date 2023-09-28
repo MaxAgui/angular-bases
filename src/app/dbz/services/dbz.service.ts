@@ -30,6 +30,7 @@ export class DbzService {
     const newCharacter: Character = {  ...character ,id: uuid() }
 
     this.characters.push(newCharacter)
+    console.log('pruebaaaa push')
   }
 
   deleteCharacterById(id:string):void{
